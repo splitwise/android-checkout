@@ -76,10 +76,6 @@ artifacts {
     archives androidJavadocsJar
 }
 
-signing {
-    sign configurations.archives
-}
-
 group = "org.solovyev.android"
 version = android.defaultConfig.versionName
 
